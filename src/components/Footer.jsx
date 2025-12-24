@@ -1,5 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import logo from "../sprites/logo.png";
+
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -26,7 +28,7 @@ export default function Footer() {
         <div className="footer-col-left">
           <div className="brand-lockup">
             <img
-              src="/public/ArihantaLogo.jpeg"
+              src={logo}
               alt="Arihanta Logo"
               className="footer-logo"
             />
