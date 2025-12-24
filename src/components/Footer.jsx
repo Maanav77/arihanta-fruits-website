@@ -53,7 +53,7 @@ export default function Footer() {
 
           <div className="cert-item">
             <img
-              src="/public/fssailogo.jpg"
+              src="/fssailogo.jpg"
               alt="FSSAI Logo"
               className="cert-img"
             />
@@ -62,7 +62,7 @@ export default function Footer() {
 
           <div className="cert-item">
             <img
-              src="/public/gstlogo.jpg"
+              src="/gstlogo.jpg"
               alt="GST Logo"
               className="cert-img"
             />
